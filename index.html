@@ -39,3 +39,9 @@ button{background:#ff9800;color:white;border:0;padding:15px 30px;border-radius:1
 
 </body>
 </html>
+<script>
+document.querySelectorAll(".card button").forEach(b=>{
+  if(b.innerText.includes("Watch"))
+    b.onclick=()=>alert("Anime video coming soon!");
+});
+</script>
